@@ -1,0 +1,101 @@
+<html>
+  <head>
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: black;
+        position: -webkit-sticky;
+        top: 0;
+        border-style: solid;
+        border-color: chocolate;
+      }
+      .nav a {
+        display: block;
+        padding: 0px;
+        color: peru;
+        font-size: 60px;
+        text-align: center;
+        font-family:'Times New Roman', Times, serif;
+        padding: 50px 50px;
+        text-decoration: none;
+        float:right;
+      }
+      li a:hover {
+        background-color:lightgray;
+      }
+
+      .nav {
+        overflow: hidden;
+        background-color: black;
+
+      }
+      .dropdown{
+        float:right;
+        overflow:hidden;
+      }
+      .dropdown-content{
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      .dropdown .dropbtn{
+        display: block;
+        padding: 0px;
+        color: peru;
+        font-size: 50px;
+        text-align: center;
+        font-family:'Times New Roman', Times, serif;
+        padding: 40px 40px;
+        text-decoration: none;
+        float:right;;
+      }
+
+      .nav a:hover, .dropdown:hover .dropbtn{
+        background-color: blue;
+      }
+      .dropdown-content a{
+        float: none;
+        color: white;
+        padding: 40px 40px;
+        text-decoration: none;
+        display: block;
+        text-align: right;
+      }
+      .dropdown-content a:hover{
+        background-color: #ddd;
+      }
+      .dropdown:hover .dropdown-content{
+        display: block;
+      }
+  </style>
+  </head>
+  <body>
+    
+     
+    
+        
+        
+          <img src="UM-logo-horizontal-reverse-rgb (1).png" style="max-height:480px; max-width: 200px; padding: 20px 30px;">
+    </img>
+    <div class="nav">
+        <li><a href="#Home">Home</a></li>
+      <div class="dropdown">
+        <button class="dropbtn"> Faculty 
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="#">Computer-Science </a>
+            <a href="#">Asper</a>
+            <a href="#">Biology</a>
+        </div>
+      </div>
+    </div>
+    
+  </body>
+</html>
